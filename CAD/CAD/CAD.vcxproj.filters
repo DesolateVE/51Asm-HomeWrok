@@ -1,0 +1,201 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ShapeFactory">
+      <UniqueIdentifier>{9167a0d2-1fed-430b-8cce-821f78111642}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Operation">
+      <UniqueIdentifier>{2444c357-5548-45d1-b930-e3856c5e553c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Other">
+      <UniqueIdentifier>{1ee200dd-b171-40ec-aedf-22024de5bd0f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CAD.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="framework.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CADDoc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CADView.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CShape.h">
+      <Filter>ShapeFactory</Filter>
+    </ClInclude>
+    <ClInclude Include="CLine.h">
+      <Filter>ShapeFactory</Filter>
+    </ClInclude>
+    <ClInclude Include="CEllipse.h">
+      <Filter>ShapeFactory</Filter>
+    </ClInclude>
+    <ClInclude Include="CRectangular.h">
+      <Filter>ShapeFactory</Filter>
+    </ClInclude>
+    <ClInclude Include="CPentagram.h">
+      <Filter>ShapeFactory</Filter>
+    </ClInclude>
+    <ClInclude Include="CPenSelectDialog.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CBrushSelectDialog.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CMoveOpt.h">
+      <Filter>Operation</Filter>
+    </ClInclude>
+    <ClInclude Include="COperation.h">
+      <Filter>Operation</Filter>
+    </ClInclude>
+    <ClInclude Include="CAddOpt.h">
+      <Filter>Operation</Filter>
+    </ClInclude>
+    <ClInclude Include="CDelOpt.h">
+      <Filter>Operation</Filter>
+    </ClInclude>
+    <ClInclude Include="CRotateOpt.h">
+      <Filter>Operation</Filter>
+    </ClInclude>
+    <ClInclude Include="CUpdateBrush.h">
+      <Filter>Operation</Filter>
+    </ClInclude>
+    <ClInclude Include="CUpdatePen.h">
+      <Filter>Operation</Filter>
+    </ClInclude>
+    <ClInclude Include="OperatorOverload.h">
+      <Filter>Other</Filter>
+    </ClInclude>
+    <ClInclude Include="COverView.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CAD.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CADDoc.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CADView.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CShape.cpp">
+      <Filter>ShapeFactory</Filter>
+    </ClCompile>
+    <ClCompile Include="CLine.cpp">
+      <Filter>ShapeFactory</Filter>
+    </ClCompile>
+    <ClCompile Include="CEllipse.cpp">
+      <Filter>ShapeFactory</Filter>
+    </ClCompile>
+    <ClCompile Include="CRectangular.cpp">
+      <Filter>ShapeFactory</Filter>
+    </ClCompile>
+    <ClCompile Include="CPentagram.cpp">
+      <Filter>ShapeFactory</Filter>
+    </ClCompile>
+    <ClCompile Include="CPenSelectDialog.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CBrushSelectDialog.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CMoveOpt.cpp">
+      <Filter>Operation</Filter>
+    </ClCompile>
+    <ClCompile Include="COperation.cpp">
+      <Filter>Operation</Filter>
+    </ClCompile>
+    <ClCompile Include="CAddOpt.cpp">
+      <Filter>Operation</Filter>
+    </ClCompile>
+    <ClCompile Include="CDelOpt.cpp">
+      <Filter>Operation</Filter>
+    </ClCompile>
+    <ClCompile Include="CRotateOpt.cpp">
+      <Filter>Operation</Filter>
+    </ClCompile>
+    <ClCompile Include="CUpdateBrush.cpp">
+      <Filter>Operation</Filter>
+    </ClCompile>
+    <ClCompile Include="CUpdatePen.cpp">
+      <Filter>Operation</Filter>
+    </ClCompile>
+    <ClCompile Include="OperatorOverload.cpp">
+      <Filter>Other</Filter>
+    </ClCompile>
+    <ClCompile Include="COverView.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="CAD.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\CAD.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\CADDoc.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\CAD.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Toolbar.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\18.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\19.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\20.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\21.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bitmap1.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

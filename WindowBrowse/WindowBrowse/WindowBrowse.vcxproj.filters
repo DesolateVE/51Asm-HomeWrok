@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="MainDialog">
+      <UniqueIdentifier>{50f3e96a-7e70-4a33-8596-ed95c4a383b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PropertyDlgPage">
+      <UniqueIdentifier>{829b7f20-0bc4-4d0a-9fed-d17c4711ec44}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="WindowBrowse.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="framework.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="FindWindowDlg.h">
+      <Filter>MainDialog</Filter>
+    </ClInclude>
+    <ClInclude Include="PropertyDlg.h">
+      <Filter>MainDialog</Filter>
+    </ClInclude>
+    <ClInclude Include="WindowBrowseDlg.h">
+      <Filter>MainDialog</Filter>
+    </ClInclude>
+    <ClInclude Include="PropertyNormal.h">
+      <Filter>PropertyDlgPage</Filter>
+    </ClInclude>
+    <ClInclude Include="PropertyStyle.h">
+      <Filter>PropertyDlgPage</Filter>
+    </ClInclude>
+    <ClInclude Include="PropertyWindow.h">
+      <Filter>PropertyDlgPage</Filter>
+    </ClInclude>
+    <ClInclude Include="PropertyClass.h">
+      <Filter>PropertyDlgPage</Filter>
+    </ClInclude>
+    <ClInclude Include="PropertyProcess.h">
+      <Filter>PropertyDlgPage</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="WindowBrowse.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PropertyDlg.cpp">
+      <Filter>MainDialog</Filter>
+    </ClCompile>
+    <ClCompile Include="WindowBrowseDlg.cpp">
+      <Filter>MainDialog</Filter>
+    </ClCompile>
+    <ClCompile Include="FindWindowDlg.cpp">
+      <Filter>MainDialog</Filter>
+    </ClCompile>
+    <ClCompile Include="PropertyNormal.cpp">
+      <Filter>PropertyDlgPage</Filter>
+    </ClCompile>
+    <ClCompile Include="PropertyStyle.cpp">
+      <Filter>PropertyDlgPage</Filter>
+    </ClCompile>
+    <ClCompile Include="PropertyWindow.cpp">
+      <Filter>PropertyDlgPage</Filter>
+    </ClCompile>
+    <ClCompile Include="PropertyClass.cpp">
+      <Filter>PropertyDlgPage</Filter>
+    </ClCompile>
+    <ClCompile Include="PropertyProcess.cpp">
+      <Filter>PropertyDlgPage</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="WindowBrowse.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\WindowBrowse.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\cur10.cur">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\WindowBrowse.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\From.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\From_h.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\WndIcon.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\WndIcon_h.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
