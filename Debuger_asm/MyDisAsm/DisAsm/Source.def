@@ -1,0 +1,7 @@
+LIBRARY
+EXPORTS
+	DisAsmEngineInit
+	DisAsmEngineDestory
+	GetDisAsm
+	FreeDisAsmInfo
+	DoDump
