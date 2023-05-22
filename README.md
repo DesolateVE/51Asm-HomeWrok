@@ -10,6 +10,10 @@
 ## StudentManage_asm
 三阶段项目，16 位汇编编写学生信息管理系统
 
+## StudentManage_mysql
+
+二阶段项目，服务端与mysql交互，客户端显示GUI界面并与服务端通信
+
 ## Debuger_asm
 三阶段项目，32 位汇编编写 Windows 调试器
 
